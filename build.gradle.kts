@@ -78,7 +78,7 @@ apiValidation {
 java.withSourcesJar()
 
 publishing.publications.named<MavenPublication>("maven") {
-    artifactId = "elementa"
+    artifactId = "mtech-elementa"
 }
 
 publishing {
