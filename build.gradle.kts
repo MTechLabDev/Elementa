@@ -63,9 +63,6 @@ dependencies {
 
 tasks.processResources {
     inputs.property("project.version", project.version)
-    filesMatching("fabric.mod.json") {
-        expand("version" to project.version)
-    }
 }
 
 tasks.jar {
